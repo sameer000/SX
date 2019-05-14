@@ -2038,7 +2038,7 @@ z-index: 3;
 line-height: 1;
 padding: 0 1px;
 color: #3992eb;
-font-weight: 500;
+font-weight: normal;
 }
 #form-section .border-lable-flt label::after, #form-section .border-lable-flt > span::after {
 content: " ";
