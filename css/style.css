@@ -2213,6 +2213,7 @@ margin-bottom: 50px;
 margin-top: -166px;
 }
 */
+  
   #home-banner h1 {
     line-height: 1.2;
   }
@@ -2306,7 +2307,7 @@ padding-left: 0;
 }
 #integration .integrate-app-inner .integrate-app-list {
 width: 44% ;
-margin-right: auto;
+margin-right: auto !important;
 margin-left: auto;
 }
 #brand .brand-column .brand-card:nth-child(1) {
