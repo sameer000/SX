@@ -2058,7 +2058,6 @@ box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
 }
 
 
-
 /*-----------------------------------
 WEB Responsive
 ------------------------------------*/
@@ -2066,7 +2065,14 @@ WEB Responsive
 
 @media only screen and (max-width: 1500px){
 #platform{
-max-width: 1040px;
+  max-width: 1040px;
+}
+#platform .platform-card p {
+  font-size: 12px;
+}
+#platform .platform-card {
+  width: 23.5%;
+  margin-right: 2%;
 }
 }
 
