@@ -2063,6 +2063,13 @@ box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
 WEB Responsive
 ------------------------------------*/
 /*-----MINI DESKTOP SCREEN------*/
+
+@media only screen and (max-width: 1500px){
+#platform{
+max-width: 1040px;
+}
+}
+
 @media (min-width: 992px) and (max-width: 1260px){
 #intro .intro-contact {
 max-width: 991px !important;
@@ -2084,6 +2091,9 @@ left: 241px;
 }
 
 @media only screen and (max-width: 1200px){
+  #cta-strap {
+    margin: 0 20px;
+}
 #platform{
 padding: 0 20px;
 }
@@ -2197,6 +2207,9 @@ margin-bottom: 50px;
 margin-top: -166px;
 }
 */
+  #home-banner h1 {
+    line-height: 1.2;
+  }
 #intro .class1:before, #intro .class2:before, #intro .class3:before {
 margin-top: 10px;
 }
