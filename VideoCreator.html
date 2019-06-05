@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Make Sarah fall in love with your brand.</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="" name="keywords">
+<meta content="" name="description">
+
+<!-- Favicons -->
+<link href="img/favicon.png" rel="icon">
+
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900' rel='stylesheet'>
+
+<!-- Bootstrap CSS File -->
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Libraries CSS Files -->
+<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+<link href="lib/animate/animate.min.css" rel="stylesheet">
+<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.min.js" type="071005a58780dedf41984f1c-text/javascript"></script>
+<script src="https://cdn.rawgit.com/lodash/lodash/4.17.4/dist/lodash.js" type="071005a58780dedf41984f1c-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js" type="071005a58780dedf41984f1c-text/javascript"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" type="071005a58780dedf41984f1c-text/javascript"></script>
+<link rel="stylesheet" href="style.css">
+<script type="071005a58780dedf41984f1c-text/javascript">
+(function(e) {
+"use strict";
+
+function r(t, n) {
+this.opts = e.extend({
+handleWheel: !0,
+handleScrollbar: !0,
+handleKeys: !0,
+scrollEventKeys: [32, 33, 34, 35, 36, 37, 38, 39, 40]
+}, n);
+this.$container = t;
+this.$document = e(document);
+this.lockToScrollPos = [0, 0];
+this.disable()
+}
+var t, n;
+n = r.prototype;
+n.disable = function() {
+var e = this;
+e.opts.handleWheel && e.$container.on("mousewheel.disablescroll DOMMouseScroll.disablescroll touchmove.disablescroll", e._handleWheel);
+if (e.opts.handleScrollbar) {
+e.lockToScrollPos = [e.$container.scrollLeft(), e.$container.scrollTop()];
+e.$container.on("scroll.disablescroll", function() {
+e._handleScrollbar.call(e)
+})
+}
+e.opts.handleKeys && e.$document.on("keydown.disablescroll", function(t) {
+e._handleKeydown.call(e, t)
+})
+};
+n.undo = function() {
+var e = this;
+e.$container.off(".disablescroll");
+e.opts.handleKeys && e.$document.off(".disablescroll")
+};
+n._handleWheel = function(e) {
+e.preventDefault()
+};
+n._handleScrollbar = function() {
+this.$container.scrollLeft(this.lockToScrollPos[0]);
+this.$container.scrollTop(this.lockToScrollPos[1])
+};
+n._handleKeydown = function(e) {
+for (var t = 0; t < this.opts.scrollEventKeys.length; t++)
+if (e.keyCode === this.opts.scrollEventKeys[t]) {
+e.preventDefault();
+return
+}
+};
+e.fn.disablescroll = function(e) {
+!t && (typeof e == "object" || !e) && (t = new r(this, e));
+t && typeof e == "undefined" ? t.disable() : t && t[e] && t[e].call(t)
+};
+window.UserScrollDisabler = r
+})(jQuery);
+
+
+//SCROLL ANIMATION
+$(document).ready(function(){
+$("#badmaash").stick_in_parent();
+var start = document.getElementById('second').getBoundingClientRect().top;
+var end = document.getElementById('second').getBoundingClientRect().bottom-start;
+var difference = Math.abs(start - end);
+var target = $('.accordian_item');
+var single_length = difference/(target.length);
+var bonds = [];
+var ticker = start;
+var current_slice = 0
+$('.accordian_item').each(function( index ){
+bonds.push({"start":ticker,"end":ticker+single_length});
+ticker = ticker+single_length;
+});
+
+console.log(bonds);
+$( window ).scroll(function(event) {
+
+var currentOffset = window.pageYOffset;
+_.forEach(bonds, function(value, key) {
+
+if (value.start<=currentOffset && value.end>=currentOffset){
+	if (current_slice==key){
+
+	}
+  else{
+		$(target[current_slice]).removeClass("accordian_item active_accordian_item").addClass( "accordian_item" );
+		$(target[key]).removeClass("accordian_item").addClass( "accordian_item active_accordian_item" );
+		current_slice = key;
+	}
+}
+});
+});
+});
+
+$(".accordian_item").click(function (e) {
+$(this).addClass("active_accordian_item").siblings().removeClass("active_accordian_item");
+});
+
+</script>
+<!-- Main Stylesheet File -->
+
+<link href="css/style.css" rel="stylesheet">
+
+<!-- =========================================================== -->
+</head>
+
+<body class="creator">
+<!--==========================
+Header
+============================-->
+<header id="header" class="light-nav">
+
+<div class="container">
+
+<div class="logo float-left">
+<!-- Uncomment below if you prefer to use an image logo -->
+<a href="#" class="scrollto"><img src="img/StoryXpressLogo.png" alt="Story Xpress" class="img-fluid"></a>
+</div>
+
+<nav class="main-nav d-none d-lg-block">
+<ul class="float-left">
+<li class="drop-down"><a href="#">Products</a>
+<ul>
+<li><a href="#">
+<h6>Product Videos</h6>
+<p>Lorem ipsum dolor sit amet, ea vis debet<br>quaeque, nam ei iusto tantas singu</p></a></li>
+<li><a href="/PersonalisedVideo.html">
+<h6>Personalised Videos</h6>
+<p>Lorem ipsum dolor sit amet, ea vis debet<br>quaeque, nam ei iusto tantas singu</p></a></li>
+<li><a href="#">
+<h6>Hosting and Analytics</h6>
+<p>Lorem ipsum dolor sit amet, ea vis debet<br>quaeque, nam ei iusto tantas singu</p></a></li>
+<li><a href="#">
+<h6>Clapboard</h6>
+<p>Lorem ipsum dolor sit amet, ea vis debet<br>quaeque, nam ei iusto tantas singu</p></a></li>
+</ul>
+</li>
+<li><a href="#">Solutions</a></li>
+</ul>
+<ul class="float-right">
+<li><a href="#">Sign up</a></li>
+<li class="btn"><a href="#">Sign in</a></li>
+</ul>
+</nav>
+<!-- .main-nav -->
+
+</div>
+</header>
+<!-- #header -->
+
+<!--==========================
+Intro Section
+============================-->
+<section id="intro" class="clearfix">
+<div class="intro-contact">
+<div class="container d-flex h-100">
+<div class="hero-banner">
+<h1>Your e-commerce engagement deserves growth</h1>
+<p>Enhance your customer experience by creating product videos at scale and drive online sales.</p>
+<a href="#" class="banner-cta">
+<button>Schedule Demo</button>
+</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- #intro -->
+<!--==========================
+Second sticky Section
+============================-->
+
+<section class="second" id="second">
+
+<div id="badmaash">
+<div class="two_cups flex">
+  <div class="container text-center">
+  <h2>How it works</h2>
+  <p>Smooth and hastle-free</p>
+  </div>
+<div class="cup_two">
+<div class="accordian" id="accordian">
+
+<div class="flex accordian_item active_accordian_item">
+
+<div class="accordian_item-image"><img src="img/icon_1.svg" /></div>
+
+  <div class="accordian_item-content">
+        <h4>Upload images and copy</h4>
+<p>Single-click upload for images and copy from a local system or URL.</p>
+
+</div>
+</div>
+<div class="flex accordian_item">
+  <div class="accordian_item-image"><img src="img/icon_2.svg" /></div>
+
+    <div class="accordian_item-content">
+          <h4>Highlight features</h4>
+          <p>Bring attention to key features of your product through pointers</p>
+    </div>
+</div>
+<div class="flex accordian_item">
+  <div class="accordian_item-image"><img src="img/icon_4.svg" /></div>
+
+  <div class="accordian_item-content">
+      <h4>Publish</h4>
+      <p>Download, embed and publish your video instantly</p>
+  </div>
+</div>
+<div class="flex accordian_item">
+  <div class="accordian_item-image"><img src="img/icon_3.svg" /></div>
+
+    <div class="accordian_item-content">
+        <h4>You're all set to go!</h4>
+        <p>Boost engagement, build loyalty and sell better through videos</p>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="cup_one">
+
+</div>
+
+</div>
+</div>
+</section>
+<!--==========================
+Features Section
+============================-->
+<section id="video-features">
+<h2>Features</h2>
+<p>Retailer or brand, we've built for you</p>
+
+<div class="video-features-group flex">
+
+<div class="video-features-card">
+<img src="img/FeatureIcon1.png" alt="">
+<h4>Closed Captions</h4>
+<p>Automatic closed captions for all videos to meet accessibility requirements and improve Video SEO</p>
+</div>
+
+<div class="video-features-card">
+<img src="img/FeatureIcon2.png" alt="">
+<h4>Easy collaboration</h4>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+</div>
+
+<div class="video-features-card">
+<img src="img/FeatureIcon3.png" alt="">
+<h4>Cross device</h4>
+<p>Custom videos for devices of all screen sizes. Engage your customers on multiple platforms</p>
+</div>
+
+<div class="video-features-card">
+<img src="img/FeatureIcon4.png" alt="">
+<h4>Secured</h4>
+<p>All your created videos are completely secure on our platform. We take security very seriously</p>
+</div>
+
+</div>
+
+</section>
+
+<!--==========================
+Our Integration
+============================-->
+<section id="saying">
+<div class="container">
+<h2>Listen to what people are saying</h2>
+<p>First-hand experiences from our customers</p>
+</div>
+<div class="saying-group flex">
+<div class="saying-card">
+<p>StoryXpress Video Creator tool helped us make a 35% increase in engagement on our website. We love it!</p>
+<div class="testimonial-details flex">
+<div class="testimonial-image">
+<img src="img/chinmay.png" alt="">
+</div>
+<div class="testimonial-info">
+<h4>Zachary Levi</h4>
+<h5>CEO @Dummyco</h5>
+</div>
+</div>
+</div>
+
+<div class="saying-card">
+<p>StoryXpress Video Creator tool helped us make a 35% increase in engagement on our website. We love it!</p>
+<div class="testimonial-details flex">
+<div class="testimonial-image">
+<img src="img/chinmay.png" alt="">
+</div>
+<div class="testimonial-info">
+<h4>Zachary Levi</h4>
+<h5>CEO @Dummyco</h5>
+</div>
+</div>
+</div>
+
+<div class="saying-card">
+<p>StoryXpress Video Creator tool helped us make a 35% increase in engagement on our website. We love it!</p>
+<div class="testimonial-details flex">
+<div class="testimonial-image">
+<img src="img/chinmay.png" alt="">
+</div>
+<div class="testimonial-info">
+<h4>Zachary Levi</h4>
+<h5>CEO @Dummyco</h5>
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!--==========================
+CTA Strip
+============================-->
+<section id="cta-strap">
+<div class="cta-strap-section flex">
+<div class="cta-strap-content">
+<h3>Let us give you a lift</h3>
+<p>Don’t miss out on better engagement</p>
+</div>
+<div class="cta-strap-button">
+<a href="#">
+<button type="button" name="button">Request a demo</button>
+</a>
+</div>
+</div>
+</section>
+
+<!--==========================
+Footer
+============================-->
+<footer id="footer" class="section-bg">
+<div class="footer-top flex">
+
+<div class="footer-info">
+<img src="img/StoryXpressLogo.png" alt="Story Xpress" class="footer-logo" />
+<p>A <img src="img/Techstars.png" alt="Techstars" class="caption-logo" /> Company</p>
+<div class="social-links">
+<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+<a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+<a href="#" class="angellist"><i class="fa fa-angellist"></i></a>
+</div>
+</div>
+
+<div class="company">
+<h4>Company</h4>
+<a href="#">About us</a>
+<a href="#">Contact us</a>
+<a href="#">Privacy policy</a>
+<a href="#">Careers</a>
+</div>
+
+<div class="solutions">
+<h4>Partner Portals</h4>
+<a href="#">Video creator</a>
+<a href="/PersonalisedVideo.html">Personalised video</a>
+<a href="#">Hosting and Analytics</a>
+<a href="#">Clapboard</a>
+</div>
+
+<div class="resources">
+<h4>Resources</h4>
+<a href="#">API</a>
+<a href="#">Blog</a>
+<a href="#">FAQs</a>
+<a href="#">Case studies</a>
+</div>
+
+<div class="partner">
+<h4>Partner Portals</h4>
+<a href="#">Target Video Creator</a>
+<a href="#">Best Buy</a>
+<a href="#">Jockey</a>
+</div>
+</div>
+
+<div class="copyright">
+<p>Copyright © 2019 StoryXpress Inc. All Rights Reserved.</p>
+</div>
+</footer>
+<!-- #footer -->
+
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+
+<!-- JavaScript Libraries -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/mobile-nav/mobile-nav.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+<!-- Contact Form JavaScript File -->
+<script src="contactform/contactform.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+
+<script type="071005a58780dedf41984f1c-text/javascript">
+(function($) {
+var h = $.scrollTo = function(a, b, c) {
+$(window).scrollTo(a, b, c)
+};
+h.defaults = {
+axis: 'xy',
+duration: parseFloat($.fn.jquery) >= 1.3 ? 0 : 1,
+limit: true
+};
+h.window = function(a) {
+return $(window)._scrollable()
+};
+$.fn._scrollable = function() {
+return this.map(function() {
+var a = this,
+    isWin = !a.nodeName || $.inArray(a.nodeName.toLowerCase(), ['iframe', '#document', 'html', 'body']) != -1;
+if (!isWin) return a;
+var b = (a.contentWindow || a).document || a.ownerDocument || a;
+return /webkit/i.test(navigator.userAgent) || b.compatMode == 'BackCompat' ? b.body : b.documentElement
+})
+};
+$.fn.scrollTo = function(e, f, g) {
+if (typeof f == 'object') {
+g = f;
+f = 0
+}
+if (typeof g == 'function') g = {
+onAfter: g
+};
+if (e == 'max') e = 9e9;
+g = $.extend({}, h.defaults, g);
+f = f || g.duration;
+g.queue = g.queue && g.axis.length > 1;
+if (g.queue) f /= 2;
+g.offset = both(g.offset);
+g.over = both(g.over);
+return this._scrollable().each(function() {
+if (!e) return;
+var d = this,
+    $elem = $(d),
+    targ = e,
+    toff, attr = {},
+    win = $elem.is('html,body');
+switch (typeof targ) {
+    case 'number':
+    case 'string':
+        if (/^([+-]=)?\d+(\.\d+)?(px|%)?$/.test(targ)) {
+            targ = both(targ);
+            break
+        }
+        targ = $(targ, this);
+        if (!targ.length) return;
+    case 'object':
+        if (targ.is || targ.style) toff = (targ = $(targ)).offset()
+}
+$.each(g.axis.split(''), function(i, a) {
+    var b = a == 'x' ? 'Left' : 'Top',
+        pos = b.toLowerCase(),
+        key = 'scroll' + b,
+        old = d[key],
+        max = h.max(d, a);
+    if (toff) {
+        attr[key] = toff[pos] + (win ? 0 : old - $elem.offset()[pos]);
+        if (g.margin) {
+            attr[key] -= parseInt(targ.css('margin' + b)) || 0;
+            attr[key] -= parseInt(targ.css('border' + b + 'Width')) || 0
+        }
+        attr[key] += g.offset[pos] || 0;
+        if (g.over[pos]) attr[key] += targ[a == 'x' ? 'width' : 'height']() * g.over[pos]
+    } else {
+        var c = targ[pos];
+        attr[key] = c.slice && c.slice(-1) == '%' ? parseFloat(c) / 100 * max : c
+    }
+    if (g.limit && /^\d+$/.test(attr[key])) attr[key] = attr[key] <= 0 ? 0 : Math.min(attr[key], max);
+    if (!i && g.queue) {
+        if (old != attr[key]) animate(g.onAfterFirst);
+        delete attr[key]
+    }
+});
+animate(g.onAfter);
+
+function animate(a) {
+    $elem.animate(attr, f, g.easing, a && function() {
+        a.call(this, e, g)
+    })
+}
+}).end()
+};
+h.max = function(a, b) {
+var c = b == 'x' ? 'Width' : 'Height',
+scroll = 'scroll' + c;
+if (!$(a).is('html,body')) return a[scroll] - $(a)[c.toLowerCase()]();
+var d = 'client' + c,
+html = a.ownerDocument.documentElement,
+body = a.ownerDocument.body;
+return Math.max(html[scroll], body[scroll]) - Math.min(html[d], body[d])
+};
+
+function both(a) {
+return typeof a == 'object' ? a : {
+top: a,
+left: a
+}
+}
+})(jQuery);
+</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="071005a58780dedf41984f1c-|49" defer=""></script></body>
+
+<!-- Template Main Javascript File -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
