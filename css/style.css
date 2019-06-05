@@ -230,9 +230,7 @@ transition: .5s;
 color: #fff !important;
 }
 .main-nav li.btn a:hover {
-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-background-image: linear-gradient(121deg, #ff5858, #bc2929);
-border-color: #ff5858;
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
 transition: .5s;
 }
 .main-nav .float-right a {
