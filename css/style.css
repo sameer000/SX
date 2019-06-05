@@ -2316,7 +2316,7 @@ background-image: url('../img/work/Work1.jpg');
 top: 40px;
 }
 .two_cups .active_accordian_item.accordian_item:nth-child(2):before{
-background-image: url('../img/work/Work2.jpg');
+background-image: url('../img/work/Work4.jpg');
 top: -81px;
 }
 .two_cups .active_accordian_item.accordian_item:nth-child(3):before{
@@ -2324,7 +2324,7 @@ background-image: url('../img/work/Work3.jpg');
 top: -202px;
 }
 .two_cups .active_accordian_item.accordian_item:nth-child(4):before{
-background-image: url('../img/work/Work4.jpg');
+background-image: url('../img/work/Work2.jpg');
 top: -309px;
 }
 
