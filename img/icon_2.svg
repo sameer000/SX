@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.308" height="39.296" viewBox="0 0 30.308 39.296">
+    <defs>
+        <style>
+            .cls-1{fill:#cecece}
+        </style>
+    </defs>
+    <g id="Asset_3" data-name="Asset 3" transform="translate(-.015)">
+        <g id="Layer_1" data-name="Layer 1" transform="translate(.016)">
+            <g id="Group_416" data-name="Group 416" transform="translate(0 10.225)">
+                <path id="Path_726" d="M23.223 31.522a.727.727 0 0 1 .267-.808l5.771-4.284a2.594 2.594 0 0 0-1.519-4.688h-7.161a.727.727 0 0 1-.7-.509l-2.247-6.8a2.594 2.594 0 0 0-4.93 0L11.69 17.5a.924.924 0 1 0 1.754.582l1.018-3.063a.719.719 0 0 1 .7-.517.735.735 0 0 1 .711.517l2.239 6.805A2.586 2.586 0 0 0 20.54 23.6h7.16a.752.752 0 0 1 .436 1.35l-5.747 4.227a2.6 2.6 0 0 0-.938 2.885l2.182 6.821a.744.744 0 0 1-1.14.808l-5.811-4.13a2.594 2.594 0 0 0-3.039 0l-5.808 4.157A.744.744 0 0 1 6.7 38.91l2.2-6.846a2.6 2.6 0 0 0-.954-2.885l-5.785-4.236a.752.752 0 0 1 .436-1.35h7.161a.929.929 0 0 0 0-1.851H2.6a2.594 2.594 0 0 0-1.522 4.688l5.763 4.284a.735.735 0 0 1 .267.808l-2.183 6.822a2.578 2.578 0 0 0 .954 2.877 2.611 2.611 0 0 0 1.519.5 2.578 2.578 0 0 0 1.5-.5l5.802-4.187a.752.752 0 0 1 .873 0l5.835 4.187a2.6 2.6 0 0 0 3.993-2.9z" class="cls-1" data-name="Path 726" transform="translate(-.016 -12.651)"/>
+            </g>
+            <rect id="Rectangle_32" width="1.018" height="6.636" class="cls-1" data-name="Rectangle 32" rx=".509" transform="rotate(-45 12.622 2.823)"/>
+            <rect id="Rectangle_33" width="1.018" height="6.636" class="cls-1" data-name="Rectangle 33" rx=".509" transform="translate(14.487)"/>
+            <rect id="Rectangle_34" width="1.018" height="6.636" class="cls-1" data-name="Rectangle 34" rx=".509" transform="rotate(45 3.838 40.116)"/>
+        </g>
+    </g>
+</svg>
