@@ -1195,7 +1195,7 @@ content: 'Sarah';
 #intro .class1:after{
 position: absolute;
 content: '';
-background-image: url('../img/hi-sarah.svg');
+background-image: url('../img/Hi_maria.svg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: 94px 64px;
@@ -1207,7 +1207,7 @@ left: 925px;
 #intro .class2:after{
 position: absolute;
 content: '';
-background-image: url('../img/hi-mark.svg');
+background-image: url('../img/Hi_Jason.svg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: 76px 55px;
@@ -1219,7 +1219,7 @@ left: 577px;
 #intro .class3:after{
 position: absolute;
 content: '';
-background-image: url('../img/hi-robert.svg');
+background-image: url('../img/Hi_Sarah.svg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: 97px 66px;
