@@ -2031,7 +2031,7 @@ transition: .5s;
 #cta-strap{
 border-radius: 10px;
 background: #4a96f6;
-background-image: url('../img/blueshiz@3x.png');
+background-image: url('../img/blue-cta.svg');
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -2040,7 +2040,7 @@ margin: 0 auto;
 }
 body.creator #cta-strap{
 background: #3db56a;
-background-image: url('../img/VideoCreatorFooterBG.png');
+background-image: url('../img/green-cta.svg');
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
