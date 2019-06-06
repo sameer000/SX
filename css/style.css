@@ -549,10 +549,11 @@ body.creator #intro:after {
 	height: 0;
 }
 
-#header.light-nav.header-scrolled .main-nav .float-right .btn {
+#header.light-nav.header-scrolled .main-nav .float-right .btn a {
 	background-image: linear-gradient(294deg, #4275f1, #6cc7f4);
 	border-color: #fff;
 	transition: .5s;
+	border: 0;
 }
 
 
@@ -2509,6 +2510,10 @@ body.creator #cta-strap {
 .home .btn {
 	background-image: linear-gradient(296deg, #4275f1, #6cc7f4);
 	border: 0;
+}
+
+.home .btn:hover {
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
 }
 
 .home .main-nav li.btn a {
