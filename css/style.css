@@ -12,7 +12,7 @@ font-style: normal;
 font-stretch: normal;
 }
 .full-width-nav{
-  padding: 0 50px;
+padding: 0 50px;
 }
 img{
 max-width: 100%;
@@ -458,7 +458,7 @@ overflow-y: auto;
 left: -260px;
 width: 260px;
 padding-top: 18px;
-    background: rgba(66, 117, 241, 0.7);
+background: rgba(66, 117, 241, 0.7);
 transition: 0.4s;
 }
 .mobile-nav * {
@@ -1307,7 +1307,7 @@ margin-top: 30px;
 background-image: linear-gradient(296deg, #4275f1, #6cc7f4);
 }
 .home a.banner-cta button:hover {
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
 }
 #video {
 margin: 50px 0;
@@ -2189,13 +2189,13 @@ min-height: 100px;
 position: relative;
 }
 .saying-group .saying-card p:before {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 18px;
-    top: -12px;
-    left: 0;
-  background-image: url('../img/quote.svg');
+content: '';
+position: absolute;
+width: 25px;
+height: 18px;
+top: -12px;
+left: 0;
+background-image: url('../img/quote.svg');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -2429,11 +2429,11 @@ width: 80%;
 }
 
 @media (max-width: 991px) {
-  nav.mobile-nav.d-lg-none h6 {
-    color: #fff;
+nav.mobile-nav.d-lg-none h6 {
+color: #fff;
 }
 nav.mobile-nav.d-lg-none p {
-    display: none;
+display: none;
 }
 #badmaash{
 position: relative !important;
@@ -2523,7 +2523,10 @@ margin-top: -166px;
 */
 #intro .hero-banner h1 {
 font-size: 30px;
-line-height: 1.5;
+line-height: 1.3;
+}
+#intro .class1, #intro .class2, #intro .class3{
+top: -28px;
 }
 .accordian .accordian_item .accordian_item-content h4:after{
 content: '';
