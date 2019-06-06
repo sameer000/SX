@@ -2384,6 +2384,11 @@ max-width: 991px !important;
 background-size: 610px 465px !important;
 background-position: 100% 120% !important;
 }
+body.creator #intro .intro-contact {
+max-width: 991px !important;
+background-size: 550px 410px !important;
+background-position: 97% 104% !important;
+}
 #intro .class1:after {
 top: 180px;
 left: 710px;
