@@ -1083,7 +1083,7 @@ height: 32px;
 transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-background: #ff625e;
+background-image: linear-gradient(294deg, #4275f1, #6cc7f4);
 color: #fff;
 }
 #footer .footer-top h4 {
