@@ -2451,7 +2451,7 @@ transform: translate(0, -50%); */
 #cta-strap {
 	border-radius: 10px;
 	background: #4a96f6;
-	background-image: url('../img/blue-cta.svg');
+	background-image: url('../img/blue-cta-bg.svg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -2461,7 +2461,7 @@ transform: translate(0, -50%); */
 
 body.creator #cta-strap {
 	background: #3db56a;
-	background-image: url('../img/green-cta.svg');
+	background-image: url('../img/green-cta-bg.svg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
