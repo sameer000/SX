@@ -96,7 +96,7 @@ button:focus {
 	transform: rotate(45deg);
 }
 
-body.home .back-to-top {
+body.home .back-to-top, body.api .back-to-top {
 	background-image: linear-gradient(294deg, #4275f1, #6cc7f4);
 }
 
@@ -2220,8 +2220,176 @@ Home Page
 #home-banner {
 	padding-top: 150px;
 	text-align: center;
+	position: relative;
+}
+.api #home-banner {
+	position: relative;
+}
+.api #home-banner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 67%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(138deg, #5a94ff, #2c6de5);
+    z-index: -1;
+}
+.api #home-banner h1, .api #home-banner p {
+    color: #fff;
+}
+body.api a.banner-cta button {
+    margin-top: 25px;
+    background-image: linear-gradient(255deg, #3f79f3, #407cf3, #5cfff3);
+}
+body.api a.banner-cta button:hover {
+    background-image: linear-gradient(138deg, #5a94ff, #2c6de5);
+		transition: .5s;
+}
+.slider-content {
+    border-radius: 10px;
+    box-shadow: -5px 5px 18px 0 rgba(0, 0, 0, 0.11);
+    background-color: #ffffff;
+    margin: 0 auto 110px;
+		max-width: 750px;
+	text-align: center;
+	    padding: 80px 30px 0;
+}
+.slider-inner .owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 33%;
+    max-width: 750px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.slider-inner .owl-nav button.owl-next,
+.slider-inner .owl-nav button.owl-prev {
+    width: 40px;
+    height: 40px;
+    background: #ffffff !important;
+    font-size: 0px !important;
+		border-radius: 5px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	position: relative;
+}
+.slider-inner .owl-nav button.owl-next::after,
+.slider-inner .owl-nav button.owl-prev::after {
+background-image: url(../img/arrow-point.svg);
+background-size: 9px 16px;
+width: 40px;
+height: 40px;
+content: '';
+position: absolute;
+left: 0;
+top: 0;
+background-repeat: no-repeat;
+    background-position: center;
+
+}
+.slider-inner .owl-nav button.owl-next{
+  margin-right: -20px;
+  float: right;
+
+}
+.slider-inner .owl-nav button.owl-prev{
+	margin-left: -20px;
+    float: left;
+}
+.slider-inner .owl-nav button.owl-prev::after{
+    transform: rotate(180deg);
+}
+.slider-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/slider-dot-bg.png');
+		background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 14% 0;
+				left: 0;
+				top: 0;
+}
+.slider-inner {
+    padding-top: 50px;
+}
+.slider-inner::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  background-image: url('../img/slider-circle-bg.png');
+	left: 0;
+	top: 0;
+	background-size: 200px;
+	background-repeat: no-repeat;
+    background-position: 83% -12%;
+		    z-index: -1;
+}
+.slider-content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.67;
+    text-align: center;
+    color: #434b4e;
+    position: relative;
+		padding-bottom: 55px;
+}
+.slider-content p::before {
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 46px;
+    background-image: url(../img/sliderQuote.png);
+    background-size: cover;
+    top: -40px;
+    left: 20px;
 }
 
+.slider-content p::after {
+    position: absolute;
+    content: '';
+    width: 200px;
+		height: 2px;
+background: rgba(0, 0, 0, 0.11);
+display: block;
+left: 50%;
+transform: translate(-50%);
+bottom: 0;
+}
+.slider-content h5{
+	color: #555d5f;
+}
+	.slider-content h6{
+		margin-bottom: 10px;
+	}
+	.slider-content img{
+		margin: 0 auto;
+box-shadow: 0 -3px 20px 0 rgba(0, 0, 0, 0.16);
+position: relative;
+background-color: #ffffff;
+border-radius: 10px;
+padding: 20px 40px;
+height: 75px;
+width: auto !important;
+bottom: -35px;
+	}
+.api-slider:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 68%;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(139deg, #5a94ff, #2c6de5);
+	z-index: -1;
+}
+
+.api-slider {
+	padding: 0 0 100px 0;
+	position: relative;
+}
 #home-banner h1 {
 	font-size: 31px;
 	line-height: 1.53;
@@ -3011,6 +3179,12 @@ WEB Responsive
 margin-top: -166px;
 }
 */
+.slider-inner .owl-nav{
+	display: none;
+}
+.slider-content{
+	max-width: 95%;
+}
 	#intro .hero-banner h1 {
 		font-size: 30px;
 		line-height: 1.3;
