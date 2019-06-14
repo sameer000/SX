@@ -128,6 +128,14 @@
     }
   });
 
+  $(".slider-inner").owlCarousel({
+    autoplay: false,
+    dots: false,
+    loop: true,
+    items: 1,
+    nav: true
+  });
+
 })(jQuery);
 
 // ----------------
