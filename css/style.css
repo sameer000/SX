@@ -96,7 +96,7 @@ button:focus {
 	transform: rotate(45deg);
 }
 
-body.home .back-to-top, body.api .back-to-top {
+body.home .back-to-top, body.api .back-to-top, body.contact .back-to-top {
 	background-image: linear-gradient(294deg, #4275f1, #6cc7f4);
 }
 
