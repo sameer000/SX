@@ -2235,6 +2235,54 @@ Home Page
     background-image: linear-gradient(138deg, #5a94ff, #2c6de5);
     z-index: -1;
 }
+
+body.contact #home-banner{
+	text-align: left;
+}
+body.contact #home-banner p{
+	max-width: 100%;
+}
+body.contact #home-banner:before {
+    position: absolute;
+    background-image: linear-gradient(138deg, #5a94ff, #2c6de5);
+    width: 100%;
+    height: 82%;
+    content: '';
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+div#form-section.contact-form form{
+	border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+	padding: 40px 20px;
+	margin-top: 30px;
+}
+div#form-section.contact-form{
+	width: 33%;
+	margin-left: 2%;
+	background-color: transparent;
+	background-size: 0;
+}
+.contact-content {
+    width: 65%;
+}
+body.contact #form-section .input-group .border-lable-flt{
+	width: 100%;
+}
+body.contact textarea#label-address {
+    height: 120px;
+}
+#home-banner .contact-content h1{
+color: #ffffff;
+}
+#home-banner .contact-content p{
+color: #ffffff;
+}
+#home-banner .contact-content img{
+max-width: 260px;
+}
 .api #home-banner h1, .api #home-banner p {
     color: #fff;
 }
@@ -2851,7 +2899,49 @@ body.creator #cta-strap {
 	border-radius: 50%;
 }
 
+.contact-details{
+padding: 100px 0;
+border-bottom: 2px solid #acadae;
+}
 
+.contact-details .container .contact-card {
+    width: 47%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(65, 65, 65, 0.14);
+    background-color: #fefefe;
+		margin-right: 6%;
+		padding: 70px 25px;
+}
+.contact-details .container .contact-card:nth-child(2){
+	margin-right: 0;
+}
+.contact-card .contact-card-inner {
+    width: 50%;
+		position: relative;
+		padding-right: 15px;
+}
+.contact-card .contact-card-inner:nth-child(2)::before{
+    content: '';
+		position: absolute;
+height: 100%;
+width: 1px;
+background: #ccc;
+left: -15px;
+}
+.contact-card .contact-card-inner img{
+	vertical-align: baseline;
+	padding-right: 5px;
+}
+.contact-card .contact-card-inner span{
+	font-size: 18px;
+	font-weight: 500;
+ letter-spacing: 0.4px;
+ color: #434b4e;
+}
+.contact-card .contact-card-inner p{
+	color: #434b4e;
+	margin-top: 10px;
+}
 /* ----------------------------------------------------------------------------------- */
 
 .clean {
@@ -3179,6 +3269,26 @@ WEB Responsive
 margin-top: -166px;
 }
 */
+.contact-card .contact-card-inner:nth-child(2)::before{
+	width: 0;
+}
+.contact-card .contact-card-inner{
+	padding-right: 0;
+	padding-bottom: 40px;
+	width: 100%;
+}
+.contact-details .container .contact-card {
+    width: 100%;
+    margin-right: 0;
+		margin-bottom: 20px;
+	}
+.contact-content {
+    width: 100%;
+}
+div#form-section.contact-form {
+    width: 100%;
+    margin-left: 0;
+	}
 .slider-inner .owl-nav{
 	display: none;
 }
