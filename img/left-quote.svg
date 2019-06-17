@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.752" height="31.837" viewBox="0 0 40.752 31.837">
+    <defs>
+        <style>
+            .cls-1{opacity:.22}.cls-2{fill:#cecece}
+        </style>
+    </defs>
+    <g id="left-quote" class="cls-1" transform="translate(0 -1.5)">
+        <path id="Path_894" d="M17.829 15.508v17.829H0V15.254C0 3.028 11.461 1.5 11.461 1.5l1.529 3.566S7.9 5.83 6.877 9.905a6.392 6.392 0 0 0 1.019 5.6z" class="cls-2" data-name="Path 894"/>
+        <path id="Path_895" d="M26.829 15.508v17.829H9V15.254C9 3.028 20.461 1.5 20.461 1.5l1.529 3.566s-5.09.764-6.113 4.839a6.392 6.392 0 0 0 1.019 5.6z" class="cls-2" data-name="Path 895" transform="translate(13.923)"/>
+    </g>
+</svg>
