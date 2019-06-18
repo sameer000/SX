@@ -3094,7 +3094,7 @@ transform: translate(0, -50%); */
 
 body.api #cta-strap {
 	background: transparent;
-	background-image: url('../img/blue-cta-bg.svg');
+	background-image: url('../img/api_cta.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
