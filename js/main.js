@@ -165,3 +165,19 @@ function loopClasses() {
 }
 
 setInterval(loopClasses, 2500);
+
+
+
+$(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+      items: 1,
+      autoplay: true,
+      loop: true,
+      dots: true,
+      nav: true,
+      dotsContainer: '.slider-nav .thumbs',
+    })
+  });
+$('.thumb').click(function(){
+ $('.owl-carousel').trigger('to.owl.carousel', [$(this).index(), 300]);
+})
