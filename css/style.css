@@ -2360,6 +2360,10 @@ margin-right: 0;
 
 #stories {
 padding: 100px 0 50px;
+background-image: url('../img/galleryBG-01.svg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;
 }
 
 #stories .container {
@@ -2438,10 +2442,10 @@ left: 73%;
 max-width: 20%;
 }
 #culture {
-    background-image: url('../img/cultureBG-01.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-        background-position: left bottom;
+background-image: url('../img/cultureBG-01.svg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: left bottom;
 }
 #culture h2 {
 text-align: center;
