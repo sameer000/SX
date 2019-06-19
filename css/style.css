@@ -3630,9 +3630,9 @@ body.contact main#main:after {
     content: '';
     width: 96%;
     height: 1px;
-    background: #acadae;
+    background: #dddddd;
     display: block;
-    margin: 0 auto;
+    margin: 40px auto 0;
 }
 .contact-details .container .contact-card {
 width: 47%;
