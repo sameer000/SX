@@ -3625,14 +3625,15 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
-.contact-details:after {
-  position: relative;
-  content: '';
-  widtht: 97%;
-  height: 1px;
-  background: #acadae;
+body.contact main#main:after {
+    position: relative;
+    content: '';
+    width: 96%;
+    height: 1px;
+    background: #acadae;
+    display: block;
+    margin: 0 auto;
 }
-
 .contact-details .container .contact-card {
 width: 47%;
 border-radius: 10px;
