@@ -2619,11 +2619,12 @@ body.about .value-inner {
 padding: 100px 0 0;
 }
 body.about .video-section {
-background-size: 0;
+background-size: cover;
 padding: 0 0 140px;
 margin-top: -290px;
 position: relative;
 bottom: -330px;
+background-image: url('../img/video-background-about.svg')
 }
 body.about .value-card .value-card-inner h3 {
 font-size: 26px;
