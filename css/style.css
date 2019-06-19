@@ -2708,7 +2708,7 @@ padding: 0 20px;
 width: 47%;
 margin-right: 3%;
 }
-.owl-carousel.owl-loaded.owl-drag {
+body.about .owl-carousel.owl-loaded.owl-drag {
 width: 47%;
 background: #fff;
 position: relative;
@@ -2719,7 +2719,7 @@ padding: 25px;
 margin-bottom: 20px;
 position: relative;
 }
-.owl-carousel.owl-loaded.owl-drag::before{
+body.about .owl-carousel.owl-loaded.owl-drag::before{
 position: absolute;
 content: '';
 width: 1px;
