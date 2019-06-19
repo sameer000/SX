@@ -2293,10 +2293,10 @@ max-width: 1200px;
 margin: 80px auto 0;
 }
 .career-banner-card-outer {
-    background-image: url('../img/about-banner-BG-01.svg');
-    background-repeat: no-repeat;
-    background-size: 90%;
-    background-position: center bottom;
+background-image: url('../img/about-banner-BG-01.svg');
+background-repeat: no-repeat;
+background-size: 90%;
+background-position: center bottom;
 }
 .career-banner-image {
 width: 50%;
@@ -2526,7 +2526,10 @@ color: #555d5f;
 
 #openings {
 padding: 30px 0;
-border-bottom: 2px solid #cecece;
+border-bottom: 1px solid #dddddd;
+background-image: url(https://sameer000.github.io/SX/img/openingBG-01.svg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 #openings h2 {
@@ -3633,13 +3636,13 @@ background-repeat: no-repeat;
 background-position: center;
 }
 body.contact main#main:after {
-    position: relative;
-    content: '';
-    width: 96%;
-    height: 1px;
-    background: #dddddd;
-    display: block;
-    margin: 40px auto 0;
+position: relative;
+content: '';
+width: 96%;
+height: 1px;
+background: #dddddd;
+display: block;
+margin: 40px auto 0;
 }
 .contact-details .container .contact-card {
 width: 47%;
