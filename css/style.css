@@ -3619,11 +3619,18 @@ border-radius: 50%;
 
 .contact-details {
 padding: 180px 0 100px;
-border-bottom: 2px solid #acadae;
+position: relative;
 background-image: url('../img/addressBg-01.svg');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
+}
+.contact-details:after {
+  position: relative;
+  content: '';
+  widtht: 97%;
+  height: 1px;
+  background: #acadae;
 }
 
 .contact-details .container .contact-card {
