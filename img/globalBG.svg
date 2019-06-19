@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="448.481" height="385.94" viewBox="0 0 448.481 385.94">
+    <defs>
+        <style>
+            .cls-1{opacity:.07}.cls-2{fill:url(#linear-gradient)}.cls-3{fill:url(#linear-gradient-2)}.cls-4{fill:url(#linear-gradient-3)}.cls-5{fill:url(#linear-gradient-4)}.cls-6{fill:url(#linear-gradient-5)}
+        </style>
+        <linearGradient id="linear-gradient" x1="-.862" x2="6.504" y1="1.364" y2="-3.31" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#1764b5"/>
+            <stop offset="1" stop-color="#aad9ff"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="-.435" x2="3.877" y1="1.094" y2="-1.643" xlink:href="#linear-gradient"/>
+        <linearGradient id="linear-gradient-3" x1="-1.729" x2="3.804" y1="1.915" y2="-1.597" xlink:href="#linear-gradient"/>
+        <linearGradient id="linear-gradient-4" x1="-2.004" x2="3.835" y1="2.089" y2="-1.616" xlink:href="#linear-gradient"/>
+        <linearGradient id="linear-gradient-5" x1="-1.118" x2="4.721" y1="1.527" y2="-2.178" xlink:href="#linear-gradient"/>
+    </defs>
+    <g id="Group_804" class="cls-1" data-name="Group 804" transform="translate(-7054.664 -3170.018)">
+        <path id="Path_848" d="M7189.06 3490.775a19.823 19.823 0 0 0 14.06-5.824l131.36-131.36a19.883 19.883 0 1 0-28.12-28.118L7175 3456.832a19.884 19.884 0 0 0 14.059 33.943z" class="cls-2" data-name="Path 848" transform="translate(37.278 48.71)"/>
+        <path id="Path_849" d="M7116.437 3527.488a19.013 19.013 0 0 0 13.488-5.587l254.1-254.1a19.075 19.075 0 0 0-26.977-26.976l-254.1 254.1a19.075 19.075 0 0 0 13.488 32.563z" class="cls-3" data-name="Path 849" transform="translate(13.901 21.23)"/>
+        <path id="Path_850" d="M7147.22 3397.81a7.923 7.923 0 0 0 5.623-2.33l211.887-211.886a7.953 7.953 0 0 0-11.247-11.247l-211.888 211.886a7.954 7.954 0 0 0 5.625 13.577z" class="cls-4" data-name="Path 850" transform="translate(27.541)"/>
+        <path id="Path_851" d="M7232.141 3471.8a1.978 1.978 0 0 0 1.406-.582l211.887-211.886a1.989 1.989 0 0 0-2.812-2.813l-211.888 211.886a1.988 1.988 0 0 0 1.407 3.395z" class="cls-5" data-name="Path 851" transform="translate(57.129 27.972)"/>
+        <path id="Path_852" d="M7056.651 3514.188a1.985 1.985 0 0 0 1.407-.582l211.886-211.886a1.988 1.988 0 0 0-2.812-2.812l-211.886 211.886a1.988 1.988 0 0 0 1.4 3.394z" class="cls-6" data-name="Path 852" transform="translate(0 41.769)"/>
+    </g>
+</svg>
