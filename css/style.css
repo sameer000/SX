@@ -2292,7 +2292,12 @@ z-index: -1;
 max-width: 1200px;
 margin: 80px auto 0;
 }
-
+.career-banner-card-outer {
+    background-image: url('../img/about-banner-BG-01.svg');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center bottom;
+}
 .career-banner-image {
 width: 50%;
 z-index: 1;
