@@ -2437,7 +2437,11 @@ top: 35%;
 left: 73%;
 max-width: 20%;
 }
-
+#culture {
+    background-image: url('../img/cultureBG-01.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #culture h2 {
 text-align: center;
 }
