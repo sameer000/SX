@@ -3051,6 +3051,7 @@ top: 0;
 
 .slider-inner {
 padding-top: 50px;
+padding-bottom: 30px;
 }
 
 .slider-inner::after {
@@ -3124,7 +3125,7 @@ bottom: -35px;
 position: absolute;
 content: '';
 width: 100%;
-height: 68%;
+height: 67%;
 bottom: 0;
 left: 0;
 background-image: linear-gradient(139deg, #5a94ff, #2c6de5);
