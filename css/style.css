@@ -2398,8 +2398,15 @@ margin-bottom: 50px;
 color: #434b4e;
 }
 
-.story-gallery {
+.story-gallery, .story-gallery-background {
 position: relative;
+}
+.story-gallery-background .galleryBG1,
+.story-gallery-background .galleryBG2,
+.story-gallery-background .galleryBG3,
+.story-gallery-background .galleryBG4,
+.story-gallery-background .galleryBG5{
+  position: absolute;
 }
 
 .story-gallery img.gallery-image {
