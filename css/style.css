@@ -2403,15 +2403,12 @@ position: relative;
 max-width: 1500px;
 margin: 0 auto;
 }
-.story-gallery-background {
-position: relative;
-}
-.story-gallery-background .galleryBG1,
-.story-gallery-background .galleryBG2,
-.story-gallery-background .galleryBG3,
-.story-gallery-background .galleryBG4,
-.story-gallery-background .galleryBG5,
-.story-gallery-background .galleryBG6{
+.story-gallery .galleryBG1,
+.story-gallery .galleryBG2,
+.story-gallery .galleryBG3,
+.story-gallery .galleryBG4,
+.story-gallery .galleryBG5,
+.story-gallery .galleryBG6{
   position: absolute;
       z-index: -1;
 }
@@ -2422,13 +2419,75 @@ margin: 0 auto;
 text-align: center;
 width: 100%;
 }
-.story-gallery-background .galleryBG1 {
+.story-gallery .galleryBG1 {
+  width: 330px;
+top: -40%;
+left: -9%;
+}
+.story-gallery .galleryBG2 {
+    width: 250px;
+    top: -30%;
+left: 88%;
+}
+.story-gallery .galleryBG3 {
+    width: 200px;
+    left: 65%;
+  top: -2%;
+    opacity: 0.7;
+}
+.story-gallery .galleryBG4 {
+    width: 200px;
+    top: 65%;
+    left: 3%;
+}
+.story-gallery .galleryBG5 {
+  left: 35%;
+top: 80%;
+    width: 200px;
+}
+.story-gallery .galleryBG6 {
     width: 330px;
-    top: -248px;
-    left: -130px;
+    left: 87%;
+    top: 76%;
 }
 #culture {
 position: relative;
+max-width: 1500px;
+margin: 0 auto;
+}
+#culture .cultureBG1,
+#culture .cultureBG2,
+#culture .cultureBG3,
+#culture .cultureBG4,
+#culture .cultureBG5{
+position: absolute;
+z-index: -1;
+}
+#culture .cultureBG1 {
+    width: 220px;
+    left: -6%;
+    top: 0%;
+}
+#culture .cultureBG2 {
+    width: 350px;
+    left: -1%;
+    top: 29%;
+}
+#culture .cultureBG3 {
+    width: 220px;
+    top: 41%;
+    left: 85%;
+}
+#culture .cultureBG4 {
+    width: 220px;
+    top: 87%;
+    left: 3%;
+}
+#culture .cultureBG5 {
+    width: 250px;
+    top: 81%;
+    left: 78%;
+    opacity: .5;
 }
 #culture h2 {
 text-align: center;
@@ -2518,10 +2577,24 @@ color: #555d5f;
 
 #openings {
 padding: 30px 0;
-border-bottom: 1px solid #dddddd;
-background-image: url(https://sameer000.github.io/SX/img/openingBG-01.svg);
-background-repeat: no-repeat;
-background-size: cover;
+max-width: 1500px;
+margin: 0 auto;
+position: relative;
+}
+#openings .openingsBG1, #openings .openingsBG2 {
+    position: absolute;
+    z-index: -1;
+}
+
+#openings .openingsBG1 {
+    width: 350px;
+    left: -11%;
+    top: 35%;
+}
+#openings .openingsBG2 {
+    width: 220px;
+    left: 88%;
+    top: 46%;
 }
 
 #openings h2 {
@@ -3638,7 +3711,9 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
-body.contact main#main:after {
+
+body.contact main#main:after,
+body.career main#main:after {
 position: relative;
 content: '';
 width: 96%;
@@ -4078,10 +4153,18 @@ margin-bottom: 50px;
 margin-top: -166px;
 }
 */
+#value{
+  margin: 0 auto 100px;
+}
 .career-banner-card-outer .careerBG1,
 .career-banner-card-outer .careerBG2,
 .career-banner-card-outer .careerBG3,
-.career-banner-card-outer .careerBG4{
+.career-banner-card-outer .careerBG4,
+.story-gallery .galleryBG1,.story-gallery .galleryBG2,
+.story-gallery .galleryBG3, .story-gallery .galleryBG4,
+.story-gallery .galleryBG5, .story-gallery .galleryBG6,
+#culture .cultureBG1, #culture .cultureBG2, #culture .cultureBG3, #culture .cultureBG4, #culture .cultureBG5,
+#openings .openingsBG1, #openings .openingsBG2{
 display: none;
 }
 #about-slide button.owl-next {
