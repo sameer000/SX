@@ -2238,7 +2238,7 @@ Career Page
 border-radius: 10px;
 background-image: linear-gradient(135deg, #5a94ff, #2c6de5);
 max-width: 95%;
-margin: 20px auto 100px;
+margin: 100px auto;
 text-align: center;
 position: relative;
 }
@@ -2305,16 +2305,24 @@ position: absolute;
 z-index: -1;
 }
 .career-banner-card-outer .careerBG1{
-
+width: 400px !important;
+left: -3%;
+top: -4%;
 }
 .career-banner-card-outer .careerBG2{
-
+width: 280px !important;
+left: 1%;
+top: 45%;
 }
 .career-banner-card-outer .careerBG3{
-
+width: 350px !important;
+left: 75%;
+top: 5%;
 }
 .career-banner-card-outer .careerBG4{
-
+width: 200px !important;
+left: 85%;
+top: 92%;
 }
 .career-banner-image {
 width: 50%;
@@ -4137,6 +4145,12 @@ margin-bottom: 50px;
 margin-top: -166px;
 }
 */
+.career-banner-card-outer .careerBG1,
+.career-banner-card-outer .careerBG2,
+.career-banner-card-outer .careerBG3,
+.career-banner-card-outer .careerBG4{
+display: none;
+}
 #about-slide button.owl-next {
 width: auto;
 height: auto;
