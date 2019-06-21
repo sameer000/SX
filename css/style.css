@@ -2398,23 +2398,35 @@ margin-bottom: 50px;
 color: #434b4e;
 }
 
-.story-gallery, .story-gallery-background {
+.story-gallery{
+position: relative;
+max-width: 1500px;
+margin: 0 auto;
+}
+.story-gallery-background {
 position: relative;
 }
 .story-gallery-background .galleryBG1,
 .story-gallery-background .galleryBG2,
 .story-gallery-background .galleryBG3,
 .story-gallery-background .galleryBG4,
+.story-gallery-background .galleryBG5,
 .story-gallery-background .galleryBG5{
   position: absolute;
+      z-index: -1;
 }
 
 .story-gallery img.gallery-image {
 max-width: 1480px;
 margin: 0 auto;
 text-align: center;
+width: 100%;
 }
-
+.story-gallery-background .galleryBG1 {
+    width: 330px;
+    top: -248px;
+    left: -130px;
+}
 #culture {
 position: relative;
 }
