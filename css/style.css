@@ -2301,7 +2301,20 @@ position: relative;
 .career-banner-card-outer .careerBG2,
 .career-banner-card-outer .careerBG3,
 .career-banner-card-outer .careerBG4{
-  position: absolute;
+position: absolute;
+z-index: -1;
+}
+.career-banner-card-outer .careerBG1{
+
+}
+.career-banner-card-outer .careerBG2{
+
+}
+.career-banner-card-outer .careerBG3{
+
+}
+.career-banner-card-outer .careerBG4{
+
 }
 .career-banner-image {
 width: 50%;
