@@ -2293,10 +2293,15 @@ max-width: 1200px;
 margin: 80px auto 0;
 }
 .career-banner-card-outer {
-background-image: url('../img/about-banner-BG-01.svg');
-background-repeat: no-repeat;
-background-size: 90%;
-background-position: center bottom;
+max-width: 1460px;
+margin: 0 auto;
+position: relative;
+}
+.career-banner-card-outer .careerBG1,
+.career-banner-card-outer .careerBG2,
+.career-banner-card-outer .careerBG3,
+.career-banner-card-outer .careerBG4{
+  position: absolute;
 }
 .career-banner-image {
 width: 50%;
@@ -2457,18 +2462,18 @@ background-image: url('../img/cultureBG-01.svg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: left bottom;
-  position: relative;
+position: relative;
 }
 #culture:before {
-    position: absolute;
-    content: '';
-    background-image: url('../img/globalBG.svg');
-    height: 400px;
-    width: 400px;
-    top: -228px;
-    right: -120px;
-    background-size: contain;
-    background-repeat: no-repeat;
+position: absolute;
+content: '';
+background-image: url('../img/globalBG.svg');
+height: 400px;
+width: 400px;
+top: -228px;
+right: -120px;
+background-size: contain;
+background-repeat: no-repeat;
 }
 #culture h2 {
 text-align: center;
@@ -3019,17 +3024,17 @@ background-image: linear-gradient(138deg, #5a94ff, #2c6de5);
 transition: .5s;
 }
 body.api .owl-stage-outer {
-    position: relative;
+position: relative;
 }
 body.api .owl-stage-outer:before {
-    content: '';
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    background-image: url('../img/globalBG2-01.svg');
-    background-size: cover;
-    top: 130px;
-    left: 110px;
+content: '';
+position: absolute;
+width: 300px;
+height: 300px;
+background-image: url('../img/globalBG2-01.svg');
+background-size: cover;
+top: 130px;
+left: 110px;
 }
 .slider-content {
 border-radius: 10px;

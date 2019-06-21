@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="247.685" height="247.686" viewBox="0 0 247.685 247.686">
+    <defs>
+        <style>
+            .cls-1{fill:#4775d0;opacity:.06}.cls-2{filter:url(#Ellipse_18)}.cls-3{filter:url(#Ellipse_19)}
+        </style>
+        <filter id="Ellipse_19" width="247.685" height="247.686" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="10"/>
+            <feGaussianBlur result="blur" stdDeviation="15"/>
+            <feFlood flood-opacity=".129"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="Ellipse_18" width="184.641" height="184.642" x="31.522" y="31.522" filterUnits="userSpaceOnUse">
+            <feOffset dy="10"/>
+            <feGaussianBlur result="blur-2" stdDeviation="15"/>
+            <feFlood flood-opacity=".129"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_614" data-name="Group 614">
+        <g class="cls-3" transform="translate(-.005)">
+            <circle id="Ellipse_19-2" cx="55.75" cy="55.75" r="55.75" class="cls-1" data-name="Ellipse 19" transform="rotate(-45 159.917 2.6)"/>
+        </g>
+        <g class="cls-2" transform="translate(-.005)">
+            <circle id="Ellipse_18-2" cx="33.461" cy="33.461" r="33.461" class="cls-1" data-name="Ellipse 18" transform="rotate(-45 175.677 -35.448)"/>
+        </g>
+    </g>
+</svg>
