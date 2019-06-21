@@ -3737,7 +3737,7 @@ content: '';
 position: absolute;
 height: 100%;
 width: 1px;
-background: #ccc;
+background: rgba(65, 65, 65, 0.14);
 left: -15px;
 }
 
