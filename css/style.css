@@ -2416,7 +2416,13 @@ color: #434b4e;
 position: relative;
 overflow-x: hidden;
 }
- 
+
+.story-gallery img.gallery-image {
+max-width: 1480px;
+margin: 0 auto;
+text-align: center;
+}
+
 #culture {
 background-image: url('../img/cultureBG-01.svg');
 background-repeat: no-repeat;
