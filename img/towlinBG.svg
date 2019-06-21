@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="392.024" height="387.695" viewBox="0 0 392.024 387.695">
+    <defs>
+        <style>
+            .cls-1{opacity:.07}.cls-2{fill:url(#linear-gradient)}.cls-3{fill:url(#linear-gradient-2)}.cls-4{fill:url(#linear-gradient-3)}.cls-5{fill:url(#linear-gradient-4)}
+        </style>
+        <linearGradient id="linear-gradient" x1="-.862" x2="6.504" y1="1.364" y2="-3.31" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#1764b5"/>
+            <stop offset="1" stop-color="#aad9ff"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="-.435" x2="3.877" y1="1.094" y2="-1.643" xlink:href="#linear-gradient"/>
+        <linearGradient id="linear-gradient-3" x1="-2.004" x2="3.835" y1="2.089" y2="-1.616" xlink:href="#linear-gradient"/>
+        <linearGradient id="linear-gradient-4" x1="-1.118" x2="4.721" y1="1.527" y2="-2.178" xlink:href="#linear-gradient"/>
+    </defs>
+    <g id="Group_831" class="cls-1" data-name="Group 831" transform="translate(-7111.282 -3161.158)">
+        <path id="Path_848" d="M7189.067 3490.836a19.83 19.83 0 0 0 14.065-5.827L7334.54 3353.6a19.89 19.89 0 1 0-28.13-28.128L7175 3456.881a19.891 19.891 0 0 0 14.063 33.955z" class="cls-2" data-name="Path 848" transform="translate(37.333 48.782)"/>
+        <path id="Path_849" d="M7116.444 3527.593a19.021 19.021 0 0 0 13.493-5.589l254.2-254.2a19.082 19.082 0 0 0-26.986-26.986l-254.2 254.2a19.082 19.082 0 0 0 13.493 32.575z" class="cls-3" data-name="Path 849" transform="translate(13.921 21.261)"/>
+        <path id="Path_851" d="M7232.142 3471.882a1.978 1.978 0 0 0 1.406-.582l211.963-211.962a1.989 1.989 0 0 0-2.812-2.814l-211.964 211.962a1.989 1.989 0 0 0 1.407 3.4z" class="cls-4" data-name="Path 851" transform="translate(57.213 28.013)"/>
+        <path id="Path_852" d="M7056.652 3514.266a1.986 1.986 0 0 0 1.407-.582l211.962-211.962a1.989 1.989 0 0 0-2.812-2.812l-211.962 211.962a1.989 1.989 0 0 0 1.405 3.4z" class="cls-5" data-name="Path 852" transform="translate(175 -137.17)"/>
+    </g>
+</svg>
