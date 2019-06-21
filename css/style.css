@@ -3743,7 +3743,12 @@ left: -15px;
 
 .contact-card .contact-card-inner img {
 vertical-align: baseline;
-padding-right: 5px;
+padding-right: 10px;
+height: 45px;
+}
+.contact-card .contact-card-inner img.email-one{
+height: 35px;
+margin-top: 10px;
 }
 
 .contact-card .contact-card-inner span {
