@@ -2698,7 +2698,7 @@ padding: 0 0 140px;
 margin-top: -290px;
 position: relative;
 bottom: -330px;
-background-image: url('../img/video-background-about.svg')
+background-image: url('../img/video-background-about.svg');
 background-position: center 10%;
 
 }
