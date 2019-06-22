@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="506.259" height="476.958" viewBox="0 0 506.259 476.958">
+    <defs>
+        <style>
+            .cls-1,.cls-2{opacity:.15;fill:url(#linear-gradient)}.cls-2{opacity:.08}
+        </style>
+        <linearGradient id="linear-gradient" x1=".14" x2=".599" y1="-.326" y2="1.17" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#5a94ff"/>
+            <stop offset="1" stop-color="#2c6de5"/>
+        </linearGradient>
+    </defs>
+    <g id="right_circles" data-name="right circles" transform="translate(-1351.285 -883.349)">
+        <path id="Path_1104" d="M118.856 17.679C168.947 4.112 217.985-6.4 261.547 4.58c43.6 10.914 81.841 43.285 95.326 81.948s2.25 83.714-22.915 120.036-64.224 63.851-107.178 75.149c-43.031 11.268-89.88 6.337-125.58-11.148-35.667-17.389-60.151-47.235-80.772-83.629S-7.647 103.353 9.584 73.5c17.27-29.747 59.181-42.254 109.272-55.821z" class="cls-1" data-name="Path 1104" transform="rotate(132 661.056 947.847)"/>
+        <path id="Path_1105" d="M101.274 12.6c44.014-10.969 87.248-18.935 126.71-5.685C267.478 20.1 303.3 54.479 317.351 93.862s6.363 83.872-14.215 118.9-54.017 60.542-91.777 69.611c-37.832 9.036-79.914 1.667-112.7-17.683C65.913 245.442 42.5 214.307 22.2 176.823S-7.21 91.738 6.622 62.772C20.492 33.9 57.258 23.57 101.274 12.6z" class="cls-2" data-name="Path 1105" transform="rotate(9 -4843.484 10206.679)"/>
+    </g>
+</svg>
