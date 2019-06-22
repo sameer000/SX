@@ -2409,8 +2409,8 @@ margin: 0 auto;
 .story-gallery .galleryBG4,
 .story-gallery .galleryBG5,
 .story-gallery .galleryBG6{
-  position: absolute;
-      z-index: -1;
+position: absolute;
+z-index: -1;
 }
 
 .story-gallery img.gallery-image {
@@ -2420,35 +2420,35 @@ text-align: center;
 width: 100%;
 }
 .story-gallery .galleryBG1 {
-  width: 330px;
+width: 330px;
 top: -40%;
 left: -9%;
 }
 .story-gallery .galleryBG2 {
-    width: 250px;
-    top: -30%;
+width: 250px;
+top: -30%;
 left: 88%;
 }
 .story-gallery .galleryBG3 {
-    width: 200px;
-    left: 65%;
-  top: -2%;
-    opacity: 0.7;
+width: 200px;
+left: 65%;
+top: -2%;
+opacity: 0.7;
 }
 .story-gallery .galleryBG4 {
-    width: 200px;
-    top: 65%;
-    left: 3%;
+width: 200px;
+top: 65%;
+left: 3%;
 }
 .story-gallery .galleryBG5 {
-  left: 35%;
+left: 35%;
 top: 80%;
-    width: 200px;
+width: 200px;
 }
 .story-gallery .galleryBG6 {
-    width: 330px;
-    left: 87%;
-    top: 76%;
+width: 330px;
+left: 87%;
+top: 76%;
 }
 #culture {
 position: relative;
@@ -2464,30 +2464,30 @@ position: absolute;
 z-index: -1;
 }
 #culture .cultureBG1 {
-    width: 220px;
-    left: -6%;
-    top: 0%;
+width: 220px;
+left: -6%;
+top: 0%;
 }
 #culture .cultureBG2 {
-    width: 350px;
-    left: -1%;
-    top: 29%;
+width: 350px;
+left: -1%;
+top: 29%;
 }
 #culture .cultureBG3 {
-    width: 220px;
-    top: 41%;
-    left: 85%;
+width: 220px;
+top: 41%;
+left: 85%;
 }
 #culture .cultureBG4 {
-    width: 220px;
-    top: 87%;
-    left: 3%;
+width: 220px;
+top: 87%;
+left: 3%;
 }
 #culture .cultureBG5 {
-    width: 250px;
-    top: 81%;
-    left: 78%;
-    opacity: .5;
+width: 250px;
+top: 81%;
+left: 78%;
+opacity: .5;
 }
 #culture h2 {
 text-align: center;
@@ -2582,19 +2582,19 @@ margin: 0 auto;
 position: relative;
 }
 #openings .openingsBG1, #openings .openingsBG2 {
-    position: absolute;
-    z-index: -1;
+position: absolute;
+z-index: -1;
 }
 
 #openings .openingsBG1 {
-    width: 350px;
-    left: -11%;
-    top: 35%;
+width: 350px;
+left: -11%;
+top: 35%;
 }
 #openings .openingsBG2 {
-    width: 220px;
-    left: 88%;
-    top: 46%;
+width: 220px;
+left: 88%;
+top: 46%;
 }
 
 #openings h2 {
@@ -3704,14 +3704,38 @@ border-radius: 50%;
 }
 
 .contact-details {
-padding: 180px 0 100px;
+padding: 180px 0;
 position: relative;
-background-image: url('../img/addressBg-01.svg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+max-width: 1500px;
+margin: 0 auto;
 }
-
+.contact-details .contactBG1,
+.contact-details .contactBG2,
+.contact-details .contactBG3,
+.contact-details .contactBG4{
+position: absolute;
+z-index: -1;
+}
+.contact-details .contactBG1 {
+width: 350px;
+top: -5%;
+left: -5%;
+}
+.contact-details .contactBG2{
+width: 480px;
+left: 3%;
+top: 30%;
+}
+.contact-details .contactBG3{
+width: 420px;
+top: 30%;
+left: 68%;
+}
+.contact-details .contactBG4{
+width: 350px;
+left: 88%;
+top: 47%;
+}
 body.contact main#main:after,
 body.career main#main:after {
 position: relative;
@@ -4155,17 +4179,19 @@ margin-top: -166px;
 }
 */
 #value{
-  margin: 0 auto 100px;
+margin: 0 auto 100px;
 }
-.career-banner-card-outer .careerBG1,
-.career-banner-card-outer .careerBG2,
-.career-banner-card-outer .careerBG3,
-.career-banner-card-outer .careerBG4,
+.career-banner-card-outer .careerBG1, .career-banner-card-outer .careerBG2,
+.career-banner-card-outer .careerBG3,.career-banner-card-outer .careerBG4,
 .story-gallery .galleryBG1,.story-gallery .galleryBG2,
 .story-gallery .galleryBG3, .story-gallery .galleryBG4,
 .story-gallery .galleryBG5, .story-gallery .galleryBG6,
 #culture .cultureBG1, #culture .cultureBG2, #culture .cultureBG3, #culture .cultureBG4, #culture .cultureBG5,
-#openings .openingsBG1, #openings .openingsBG2{
+#openings .openingsBG1, #openings .openingsBG2,
+.contact-details .contactBG1,
+.contact-details .contactBG2,
+.contact-details .contactBG3,
+.contact-details .contactBG4{
 display: none;
 }
 #about-slide button.owl-next {
