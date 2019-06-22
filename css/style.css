@@ -2300,7 +2300,8 @@ position: relative;
 .career-banner-card-outer .careerBG1,
 .career-banner-card-outer .careerBG2,
 .career-banner-card-outer .careerBG3,
-.career-banner-card-outer .careerBG4{
+.career-banner-card-outer .careerBG4,
+.career-banner-card-outer .careerBG5{
 position: absolute;
 z-index: -1;
 }
@@ -2323,6 +2324,11 @@ top: 5%;
 width: 200px !important;
 left: 85%;
 top: 92%;
+}
+.career-banner-card-outer .careerBG5{
+width: 250px !important;
+left: 42%;
+top: -10%;
 }
 .career-banner-image {
 width: 50%;
@@ -2902,10 +2908,86 @@ transition: .5s;
 }
 #team-section {
 padding: 100px 0;
-background-image: url('../img/teamBG.svg');
-background-position: top left;
-background-repeat: no-repeat;
-background-size: cover;
+max-width: 1500px;
+margin: 0 auto;
+position: relative;
+}
+#team-section .teamBG1,
+#team-section .teamBG2,
+#team-section .teamBG3,
+#team-section .teamBG4,
+#team-section .teamBG5,
+#team-section .teamBG6,
+#team-section .teamBG7,
+#team-section .teamBG8,
+#team-section .teamBG9,
+#team-section .teamBG10,
+#team-section .teamBG11,
+#team-section .teamBG12{
+  position: absolute;
+  z-index: -1;
+}
+#team-section .teamBG1{
+  width: 380px;
+      left: -3%;
+      top: 2%;
+}
+#team-section .teamBG2{
+  width: 380px;
+  left: 83%;
+  top: 45%;
+}
+#team-section .teamBG3{
+  width: 280px;
+  top: 45%;
+  left: -10%;
+}
+#team-section .teamBG4{
+  width: 280px;
+  top: 88%;
+  left: -7%;
+  opacity: 0.5;
+}
+#team-section .teamBG5{
+  width: 280px;
+  top: 72%;
+  left: 93%;
+}
+#team-section .teamBG6{
+  width: 300px;
+  left: 85%;
+  top: 10%;
+}
+#team-section .teamBG7{
+  width: 200px;
+left: 30%;
+top: 26%;
+}
+#team-section .teamBG8{
+  width: 300px;
+      left: -7%;
+      top: 58%;
+}
+#team-section .teamBG9{
+  width: 160px;
+    left: 63%;
+    top: 24%;
+}
+#team-section .teamBG10{
+  width: 160px;
+  left: 6%;
+  top: 49%;
+}
+#team-section .teamBG11{
+  width: 190px;
+  left: 35%;
+  top: 44%;
+  opacity: 0.7;
+}
+#team-section .teamBG12{
+  width: 140px;
+  left: 18%;
+  top: 75%;
 }
 #team-section h2{
 text-align: center;
@@ -3736,6 +3818,7 @@ width: 350px;
 left: 88%;
 top: 47%;
 }
+
 body.contact main#main:after,
 body.career main#main:after {
 position: relative;
@@ -4188,10 +4271,14 @@ margin: 0 auto 100px;
 .story-gallery .galleryBG5, .story-gallery .galleryBG6,
 #culture .cultureBG1, #culture .cultureBG2, #culture .cultureBG3, #culture .cultureBG4, #culture .cultureBG5,
 #openings .openingsBG1, #openings .openingsBG2,
-.contact-details .contactBG1,
-.contact-details .contactBG2,
-.contact-details .contactBG3,
-.contact-details .contactBG4{
+.contact-details .contactBG1, .contact-details .contactBG2,
+.contact-details .contactBG3, .contact-details .contactBG4,
+#team-section .teamBG1,#team-section .teamBG2,
+#team-section .teamBG3,#team-section .teamBG4,
+#team-section .teamBG5,#team-section .teamBG6,
+#team-section .teamBG7,#team-section .teamBG8,
+#team-section .teamBG9,#team-section .teamBG10,
+#team-section .teamBG11,#team-section .teamBG12{
 display: none;
 }
 #about-slide button.owl-next {
