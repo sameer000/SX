@@ -2344,6 +2344,9 @@ body.about #home-banner img {
 margin: 0;
 border-radius: 10px;
 }
+body.api #home-banner img{
+width: 95%;
+}
 
 .career-banner-card-content {
 border-radius: 10px;
