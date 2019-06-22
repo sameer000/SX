@@ -3728,7 +3728,7 @@ border-radius: 10px;
 box-shadow: 0 0 20px 0 rgba(65, 65, 65, 0.14);
 background-color: #fefefe;
 margin-right: 6%;
-padding: 70px 25px;
+padding: 50px 25px;
 }
 
 .contact-details .container .contact-card:nth-child(2) {
@@ -3770,6 +3770,7 @@ color: #434b4e;
 .contact-card .contact-card-inner p {
 color: #434b4e;
 margin-top: 10px;
+font-size: 14px;
 }
 
 
