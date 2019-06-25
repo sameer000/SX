@@ -4045,13 +4045,11 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 
-.two_cups .active_accordian_item.accordian_item .accordian_item-image img,
-.two_cups .accordian_item:hover .accordian_item-image img {
+.two_cups .active_accordian_item.accordian_item .accordian_item-image img{
 filter: brightness(100);
 }
 
-.two_cups .active_accordian_item.accordian_item .accordian_item-image,
-.two_cups .accordian_item:hover .accordian_item-image {
+.two_cups .active_accordian_item.accordian_item .accordian_item-image{
 background-image: linear-gradient(153deg, #bdf8bf, #66c86a);
 }
 
