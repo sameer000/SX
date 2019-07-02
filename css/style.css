@@ -2406,6 +2406,9 @@ color: #434b4e;
 .career .owl-carousel .owl-item img{
   border-radius: 10px;
 }
+.career .owl-carousel .owl-item:nth-child(even) img {
+    margin-top: 60px;
+}
 .story-gallery{
 position: relative;
 max-width: 100%;
@@ -4294,6 +4297,9 @@ margin-bottom: 50px;
 margin-top: -166px;
 }
 */
+.career .owl-carousel .owl-item:nth-child(even) img {
+    margin-top: 0;
+}
 #value{
 margin: 0 auto 100px;
 }
