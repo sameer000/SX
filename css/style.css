@@ -2404,10 +2404,10 @@ margin-bottom: 50px;
 color: #434b4e;
 }
 .career .owl-carousel .owl-item img{
-  border-radius: 10px;
+border-radius: 10px;
 }
 .career .owl-carousel .owl-item:nth-child(even) img {
-    margin-top: 60px;
+margin-top: 60px;
 }
 .story-gallery{
 position: relative;
@@ -2763,7 +2763,9 @@ opacity: 1;
 transition: .5s;
 }
 body.about #cta-strap .cta-strap-content h3,
-body.about #cta-strap .cta-strap-content h4{
+body.about #cta-strap .cta-strap-content h4,
+body.partner #cta-strap .cta-strap-content h3,
+body.partner #cta-strap .cta-strap-content h4{
 font-size: 24px;
 color: #ffffff;
 font-weight: 600;
@@ -2944,9 +2946,9 @@ position: relative;
 .team-member-group,
 .team-advisors-group,
 .scale-image-group{
-  position: relative;
-  max-width: 1500px;
-  margin: 0 auto;
+position: relative;
+max-width: 1500px;
+margin: 0 auto;
 }
 .team-member-group .teamBG1,
 .team-advisors-group .teamBG2,
@@ -2964,19 +2966,19 @@ position: absolute;
 z-index: -1;
 }
 .team-member-group .teamBG1{
-  width: 310px;
-  left: -13%;
-  top: -11%;
+width: 310px;
+left: -13%;
+top: -11%;
 }
 .team-advisors-group .teamBG2{
 width: 310px;
 left: 92%;
-    top: -50%;
+top: -50%;
 }
 .team-advisors-group .teamBG3{
-  width: 260px;
-  top: -46%;
-  left: -23%;
+width: 260px;
+top: -46%;
+left: -23%;
 
 }
 .scale-image-group .teamBG4{
@@ -2991,19 +2993,19 @@ top: -117%;
 left: 100%;
 }
 .team-member-group .teamBG6{
-  width: 190px;
-  left: 97%;
-  top: 2%;
+width: 190px;
+left: 97%;
+top: 2%;
 }
 .team-member-group .teamBG7{
-  width: 200px;
-  left: 22%;
-  top: 56%;
+width: 200px;
+left: 22%;
+top: 56%;
 }
 .team-advisors-group .teamBG8{
-  width: 230px;
-  left: -16%;
-  top: 1%;
+width: 230px;
+left: -16%;
+top: 1%;
 }
 .team-member-group .teamBG9{
 width: 160px;
@@ -3011,9 +3013,9 @@ left: 68%;
 top: 34%;
 }
 .team-advisors-group .teamBG10{
-  width: 150px;
-      left: -1%;
-      top: -38%;
+width: 150px;
+left: -1%;
+top: -38%;
 }
 .team-advisors-group .teamBG12{
 width: 190px;
@@ -3072,6 +3074,71 @@ width: 33.33%;
 
 .team-group.investors .team-member .team-member-inner{
 margin: 0 auto 20px;
+}
+
+/*-----------------------------------
+Partner
+------------------------------------*/
+body.partner #form-section {
+    background: transparent;
+  }
+body.partner #header, body.partner #header.header-scrolled{
+transition: all 0.5s;
+height: 65px;
+padding: 15px 0;
+background-image: linear-gradient(81deg, #132261, #132261 27%, #2c4fc8 63%, #2c4fc8c2);
+}
+
+body.partner .main-nav .float-right a{
+padding: 5px 40px;
+font-size: 14px;
+color: #ffffff;
+}
+
+body.partner{
+  background-image: linear-gradient(57deg, #132261, #132261 1%, #132261 28%, #2745b1 55%, #2c4fc8 63%, #82dfff);
+}
+
+body.partner a.banner-cta button {
+    background-image: linear-gradient(297deg, #4275f1, #6cc7f4);
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  body.partner a.banner-cta button:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
+  }
+  body.partner #home-banner p, body.partner #home-banner h1{
+    color: #ffffff;
+  }
+  body.partner #home-banner img{
+    max-width: 700px;
+    margin: 0;
+
+  }
+  body.partner #works {
+    margin: 50px 0;
+    padding: 50px 0 80px;
+    background: #fff;
+}
+  body.partner #works .work-section-flex{
+  align-items: center;
+}
+body.partner #works .work-section{
+      margin: 60px auto 0;
+}
+body.partner #works .work-section-content-pointer:hover .work-section-content-pointer-image .work-section-content-pointer-image-hover{
+  background-image: linear-gradient(32deg, #132261, #132261 27%, #2c4fc8 63%, #82dfff);
+}
+body.partner #footer .copyright{
+  font-size: 14px;
+  font-weight: 500;
+}
+body.partner #footer .copyright p{
+margin: 20px 0;
+}
+body.partner #footer .copyright p img{
+max-width: 200px;
 }
 /*-----------------------------------
 Home Page
@@ -4298,7 +4365,7 @@ margin-top: -166px;
 }
 */
 .career .owl-carousel .owl-item:nth-child(even) img {
-    margin-top: 0;
+margin-top: 0;
 }
 #value{
 margin: 0 auto 100px;
