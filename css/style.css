@@ -3081,6 +3081,7 @@ Partner
 ------------------------------------*/
 body.partner #form-section {
     background: transparent;
+    margin-bottom: -110px;
   }
 body.partner #header, body.partner #header.header-scrolled{
 transition: all 0.5s;
@@ -3133,12 +3134,57 @@ body.partner #works .work-section-content-pointer:hover .work-section-content-po
 body.partner #footer .copyright{
   font-size: 14px;
   font-weight: 500;
+      padding-top: 140px;
 }
 body.partner #footer .copyright p{
 margin: 20px 0;
 }
 body.partner #footer .copyright p img{
 max-width: 200px;
+}
+body.partner .form-inner-form {
+    max-width: 90%;
+    margin: 30px auto 90px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+        padding: 40px 20px;
+}
+body.partner .form-inner-form form{
+  max-width: 700px;
+  margin: 0 auto;
+}
+body.partner .form-inner-form form .input-group .border-lable-flt{
+  width: 45%;
+}
+body.partner .form-inner-form form .input-group .border-lable-flt:nth-child(1){
+  margin-right: 5%;
+}
+body.partner .form-inner-form form .input-group .border-lable-flt:nth-child(2){
+  margin-left: 5%;
+}
+body.partner .form-inner-form p.text-center {
+    margin: 5px auto 85px;
+    max-width: 900px;
+    color: #434b4e;
+    line-height: 1.44;
+    letter-spacing: 0.37px;
+}
+body.partner .form-inner-form form h3{
+      margin-bottom: 15px;
+}
+body.partner .form-group {
+    margin-bottom: 1.5rem;
+}
+body.partner .breck-line {
+    background: rgba(0, 0, 0, 0.1);
+    height: 2px;
+    margin: 40px auto 60px;
+}
+.ckeckarea label {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
 }
 /*-----------------------------------
 Home Page
