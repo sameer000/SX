@@ -3738,15 +3738,16 @@ z-index: -1;
 border-radius: 10px;
 }
 body.partner #cta-strap {
-  background-image: linear-gradient(78deg, #132261, #132261 27%, #2c4fc8 63%, #82dfff);
+background-image: linear-gradient(78deg, #132261, #132261 27%, #2c4fc8 63%, #82dfff);
 }
 
 body.partner .cta-strap-bg {
-  background: transparent;
-  background-image: url('../img/api_cta.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+background: transparent;
+background-image: url('../img/api_cta.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 10px;
 }
 
 body.creator #cta-strap {
