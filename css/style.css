@@ -4304,6 +4304,9 @@ width: 80%;
 }
 
 @media (max-width: 991px) {
+body.partner #form-section {
+padding: 0 20px;
+}
 .team-member {
 width: 33.33%;
 }
@@ -4447,6 +4450,7 @@ margin-bottom: 50px;
 margin-top: -166px;
 }
 */
+
 .career .owl-carousel .owl-item:nth-child(even) img {
 margin-top: 0;
 }
