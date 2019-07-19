@@ -2180,11 +2180,33 @@ transition: 1s;
 transition: 1s;
 background-image: linear-gradient(121deg, #ff5858, #bc2929);
 }
+body.partner.target #form-section .btn-outline-info{
+background: #E84848;
+}
+body.partner.target #header, body.partner.target #header.header-scrolled{
+background: #E7303A;
+}
+body.partner.target a.banner-cta button {
+background: #E84848;
+}
+body.partner.target .cta-strap-bg {
+background-image: url(../img/form-bg.png);
+}
+body.partner.target #cta-strap {
+background: #E84848;
+}
+body.partner.target #works .work-section-content-pointer:hover .work-section-content-pointer-image .work-section-content-pointer-image-hover{
+background: #E84848;
+}
+body.partner.target {
+background-image: linear-gradient(57deg, #BE1616, #D22A2A 1%, #DB3333 28%, #E23A3A 55%, #EB4343 63%, #F24A4A);
+}
 body.partner #form-section .btn-outline-info:hover {
 transition: 1s;
 background-image: linear-gradient(294deg, #4275f1, #6cc7f4);
 box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
 }
+
 body.contact #form-section .btn-outline-info {
 padding: 7px 40px !important;
 background-image: linear-gradient(296deg, #4275f1, #6cc7f4);
