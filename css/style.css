@@ -4507,7 +4507,9 @@ margin: 0 auto 100px;
 .team-member-group .teamBG9,
 .team-advisors-group .teamBG10,
 .scale-image-group .teamBG11,
-.team-advisors-group .teamBG12{
+.team-advisors-group .teamBG12,
+body.partner #form-section img.form-bg1,
+body.partner #form-section img.form-bg2{
 display: none;
 }
 #about-slide button.owl-next {
