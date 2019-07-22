@@ -11,11 +11,8 @@ overflow-x: hidden;
 font-weight: normal;
 font-style: normal;
 font-stretch: normal;
-overflow-x: hidden;
 }
-section{
-overflow-x: hidden;
-}
+
 .full-width-nav {
 padding: 0 50px;
 }
@@ -305,8 +302,13 @@ transition: .5s;
 .main-nav .float-right a {
 padding: 10px 40px;
 }
-
-
+/*-------------------------------------------------------------- # Clapboard Page --------------------------------------------------------------*/
+body.clapboard #intro:after {
+background-image: linear-gradient(359deg, #b1cbe8, #ffffff);
+}
+body.clapboard #header.light-nav .logo img {
+filter: brightness(1);
+}
 /*-------------------------------------------------------------- # Intro Section --------------------------------------------------------------*/
 
 #intro {
