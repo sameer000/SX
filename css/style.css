@@ -382,6 +382,9 @@ width: 29%;
 margin: 0 auto 70px;
 position: relative;
 }
+body.clapboard #brand .brand-column .brand-card.spacer {
+width: 14.5%;
+}
 body.clapboard #brand .brand-card img {
 height: 75px;
 }
@@ -4699,6 +4702,15 @@ margin-bottom: 50px;
 margin-top: -166px;
 }
 */
+body.clapboard #brand .brand-column .brand-card.spacer {
+display: none;
+}
+body.clapboard #brand .brand-column .brand-card {
+margin: 0 auto 30px;
+}
+#brand .brand-column{
+margin: 20px auto 20px;
+}
 body.clapboard .camera-section img {
 height: 150px;
 margin-top: 50px;
@@ -4724,6 +4736,7 @@ body.clapboard #brand .brand-column .brand-card:nth-child(1),
 body.clapboard #brand .brand-column .brand-card:nth-child(2),
 body.clapboard #brand .brand-column .brand-card:nth-child(3){
 margin-top: 0 !important;
+padding: 0 !important;
 }
 .career .owl-carousel .owl-item:nth-child(even) img {
 margin-top: 0;
