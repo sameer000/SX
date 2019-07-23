@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140.817" height="100.063" viewBox="0 0 140.817 100.063">
+    <defs>
+        <style>
+            .cls-1{opacity:.4;fill:url(#linear-gradient)}.cls-2{fill:url(#linear-gradient-2)}.cls-3{fill:url(#linear-gradient-3)}.cls-4{fill:url(#linear-gradient-4)}.cls-5{fill:url(#linear-gradient-5)}.cls-6{fill:url(#linear-gradient-6)}
+        </style>
+        <linearGradient id="linear-gradient" x1=".325" x2=".717" y1=".182" y2=".892" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#cfcfcf" stop-opacity="0"/>
+            <stop offset=".15" stop-color="#97badd" stop-opacity=".325"/>
+            <stop offset=".442" stop-color="#258ffa"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1=".084" x2=".577" y1=".127" y2=".547" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#00acff"/>
+            <stop offset=".231" stop-color="#049df1"/>
+            <stop offset=".667" stop-color="#1178ce"/>
+            <stop offset="1" stop-color="#1d58b0"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-3" x1="-.086" x2=".866" y1=".165" y2=".7" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#00acff"/>
+            <stop offset=".379" stop-color="#0c9dfe"/>
+            <stop offset="1" stop-color="#297efc"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-4" x1="-1.031" x2=".832" y1="-.3" y2=".674" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ccc"/>
+            <stop offset=".229" stop-color="#dadada"/>
+            <stop offset=".712" stop-color="#f5f5f5"/>
+            <stop offset=".999" stop-color="#fff"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-5" x1="-.265" x2=".978" y1="-.046" y2="1.017" xlink:href="#linear-gradient-4"/>
+        <linearGradient id="linear-gradient-6" x1=".044" x2=".61" y1=".312" y2=".743" xlink:href="#linear-gradient-4"/>
+    </defs>
+    <g id="Group_1133" data-name="Group 1133" transform="translate(-1134.033 -251.557)">
+        <path id="Path_1783" d="M1201.077 349.3l-67.043-33.822 74.861-41.727 64.986 33.571z" class="cls-1" data-name="Path 1783"/>
+        <g id="Group_1131" data-name="Group 1131">
+            <g id="Group_1130" data-name="Group 1130">
+                <g id="Group_1129" data-name="Group 1129">
+                    <g id="Group_1126" data-name="Group 1126">
+                        <g id="Group_1125" data-name="Group 1125">
+                            <path id="Path_1784" d="M1193.163 295.709l1.476 45.522c.108 4.5.345 7.56 11.79 10.385.568.14-4.19-3.263-3.611-3.565l62.329-37.463c2.239-1.167 3.7-3.956 3.7-7.054v-44.412c0-1.329 3.986-2.868 3.068-3.565-3.7-2.807-8.22-4.984-11.145-3.542l-63.805 36.353c-2.353 1.162-3.879 4.106-3.802 7.341z" class="cls-2" data-name="Path 1784"/>
+                        </g>
+                    </g>
+                    <g id="Group_1128" data-name="Group 1128">
+                        <g id="Group_1127" data-name="Group 1127">
+                            <path id="Path_1785" d="M1199.163 298.709l1.476 45.522c.127 5.3 4.343 8.82 8.179 6.82l62.329-37.463c2.239-1.167 3.7-3.956 3.7-7.054v-44.412c0-5.345-4.184-9.027-8.077-7.107l-63.805 36.353c-2.353 1.162-3.879 4.106-3.802 7.341z" class="cls-3" data-name="Path 1785"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Group_1132" data-name="Group 1132">
+            <path id="Path_1786" d="M1226.64 298.393a12.383 12.383 0 0 1-5.6 9.706c-3.087 1.783-5.6.335-5.6-3.239a12.382 12.382 0 0 1 5.6-9.7c3.1-1.787 5.6-.339 5.6 3.233zm0 0" class="cls-4" data-name="Path 1786"/>
+            <path id="Path_1787" d="M1271.153 308.832l-23.438-16.51-12.868 23.706 6.72 3.883 4.921 2.847 17.161-9.907zm-7.5-8.567" class="cls-5" data-name="Path 1787"/>
+            <path id="Path_1788" d="M1241.567 319.911l-13.443-7.762-20.86 33.255 39.224-22.646zm0 0" class="cls-6" data-name="Path 1788"/>
+        </g>
+    </g>
+</svg>
