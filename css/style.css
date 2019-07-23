@@ -309,6 +309,207 @@ background-image: linear-gradient(359deg, #b1cbe8, #ffffff);
 body.clapboard #header.light-nav .logo img {
 filter: brightness(1);
 }
+
+body.clapboard #intro .intro-contact{
+background-image: url(../img/clapboard-banner-bg.svg);
+background-size: 700px 660px;
+background-position: 103% 100%;
+}
+body.clapboard #intro:after{
+min-height: 645px;
+}
+body.clapboard #intro .hero-banner h1 {
+color: #434b4e;
+}
+body.clapboard #intro .hero-banner {
+max-width: 700px;
+}
+body.clapboard #intro .hero-banner p{
+color: #434b4e;
+}
+body.clapboard a.image-cta {
+margin-top: 7px;
+display: inline-block;
+}
+body.clapboard .back-to-top{
+background-image: linear-gradient(359deg, #b1cbe8, #ffffff)
+}
+body.clapboard .main-nav .drop-down>a:after {
+color: #434b4e;
+}
+body.clapboard #header.light-nav .main-nav a{
+color: #434b4e;
+}
+body.clapboard .main-nav li.btn a {
+border: solid 2px #434b4e;
+color: #434b4e !important;
+}
+body.clapboard #video {
+margin: 0;
+padding: 90px 0 50px;
+position: relative;
+}
+body.clapboard .video-section{
+background-size: 0;
+padding: 40px 0 0;
+}
+body.clapboard #video::before {
+position: absolute;
+content: '';
+background-image: linear-gradient(358deg, #b1cbe8, #ffffff);
+width: 100%;
+left: 0;
+top: 0;
+height: 56%;
+z-index: -1;
+}
+body.clapboard #brand {
+margin: 0;
+}
+body.clapboard #brand .brand-column .brand-card:nth-child(1),
+body.clapboard #brand .brand-column .brand-card:nth-child(2),
+body.clapboard #brand .brand-column .brand-card:nth-child(3){
+padding: 0;
+}
+body.clapboard #brand .brand-column .brand-card:nth-child(2)::before{
+width: 0;
+}
+body.clapboard #brand .brand-column .brand-card:nth-child(2)::after{
+width: 0;
+}
+body.clapboard #brand .brand-column .brand-card {
+width: 29%;
+margin: 0 auto 70px;
+position: relative;
+}
+body.clapboard #brand .brand-card img {
+height: 75px;
+}
+
+body.clapboard .pricing-card {
+border-radius: 10px;
+box-shadow: -5px 5px 18px 0 rgba(0, 0, 0, 0.11);
+width: 30%;
+margin: 0 auto;
+padding: 50px;
+text-align: center;
+position: relative;
+}
+body.clapboard .pricing-card:hover {
+transform: scale(1.05);
+box-shadow: -10px 10px 19px 0 rgba(0, 0, 0, 0.16);
+transition: .5s;
+}
+body.clapboard .pricing-card a button{
+border-radius: 5px;
+border: solid 1.1px #377dff;
+color: #377dff;
+background: #ffffff;
+font-size: 12px;
+font-weight: 500;
+padding: 8px 33px;
+position: absolute;
+bottom: 20px;
+left: 50%;
+transform: translate(-50%, 0);
+min-width: 150px;
+transition: .5s;
+}
+body.clapboard .pricing-card:hover a button {
+border: solid 1.1px #ffffff;
+color: #ffffff;
+background-image: linear-gradient(296deg, #4275f1, #6cc7f4);
+transition: .5s;
+}
+body.clapboard .pricing-card p {
+position: absolute;
+background: #56c873;
+display: inline-block;
+width: 100%;
+left: 0;
+top: 0;
+border-radius: 10px 10px 0 0;
+color: #fff !important;
+padding: 2px;
+font-weight: 500;
+font-size: 14px;
+}
+body.clapboard .pricing-card p::before {
+position: absolute;
+content: '';
+width: 12.5px;
+height: 12.5px;
+background-image: url(../img/star-icon.svg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin-left: -20px;
+top: 6px;
+}
+body.clapboard .pricing-card h5 {
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 13px;
+}
+body.clapboard .pricing-card .gray-circle {
+width: 80px;
+height: 80px;
+margin: 0 auto;
+background: #f2f4f5;
+border-radius: 50%;
+}
+body.clapboard .pricing-card h4 {
+font-size: 25px;
+font-weight: 600;
+letter-spacing: 0.62px;
+color: #2f78ed;
+margin: 13px 0 1px;
+}
+body.clapboard .pricing-card ul {
+padding-left: 0;
+list-style: none;
+margin-top: 20px;
+padding: 25px 0;
+border-top: 2px solid rgba(0, 0, 0, 0.10);
+}
+body.clapboard .pricing-card ul li {
+color: #434b4e;
+padding-bottom: 18px;
+font-weight: 500;
+}
+body.clapboard #humanizing {
+margin-top: 40px;
+margin-bottom: 100px;
+}
+body.clapboard #cta-strap .cta-strap-section {
+max-width: 1100px;
+}
+body.clapboard #cta-strap .cta-strap-content {
+width: 80%;
+}
+body.clapboard #cta-strap .cta-strap-button {
+width: 20%;
+}
+body.clapboard #cta-strap .cta-strap-content h3 {
+font-size: 30px;
+}
+body.clapboard .camera-section-group {
+border-radius: 5px;
+box-shadow: 15px 15px 49px 0 rgba(0, 0, 0, 0.14);
+background-color: #fefefe;
+max-width: 1100px;
+margin: 140px auto;
+padding: 0 0 15px;
+}
+body.clapboard .camera-section {
+width: 29%;
+margin: 0 auto 0;
+}
+body.clapboard .camera-section img {
+height: 110px;
+margin-bottom: 20px;
+margin-top: -55px;
+}
 /*-------------------------------------------------------------- # Intro Section --------------------------------------------------------------*/
 
 #intro {
@@ -560,6 +761,7 @@ height: 0;
 }
 
 #header.light-nav.header-scrolled .main-nav .float-right .btn a {
+color: #ffffff !important;
 background-image: linear-gradient(294deg, #4275f1, #6cc7f4);
 border-color: #fff;
 transition: .5s;
@@ -1643,6 +1845,7 @@ margin-top: 25px;
 }
 
 .video-section img {
+width: 100%;
 max-width: 528px;
 border: 15px solid #fefefe;
 box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.09);
@@ -4274,6 +4477,10 @@ max-width: 1040px;
 /*-----MINI DESKTOP SCREEN------*/
 
 @media (min-width: 992px) and (max-width: 1260px) {
+
+body.clapboard #intro .intro-contact {
+background-position: 100% 100% !important;
+}
 #intro .intro-contact {
 max-width: 991px !important;
 background-size: 610px 465px !important;
@@ -4334,6 +4541,18 @@ width: 80%;
 }
 
 @media (max-width: 991px) {
+body.clapboard section#camera {
+padding-top: 70px;
+}
+body.clapboard .camera-section-group {
+margin: 140px auto 20px;
+}
+body.clapboard #intro .intro-contact {
+min-height: 800px !important;
+max-width: 720px !important;
+background-size: 550px !important;
+background-position: 20% 90% !important;
+}
 body.partner #form-section {
 padding: 0 20px;
 }
@@ -4480,7 +4699,32 @@ margin-bottom: 50px;
 margin-top: -166px;
 }
 */
-
+body.clapboard .camera-section img {
+height: 150px;
+margin-top: 50px;
+}
+body.clapboard .camera-section {
+width: 95%;
+}
+body.clapboard #cta-strap .cta-strap-content {
+width: 100%;
+}
+body.clapboard #cta-strap .cta-strap-button {
+width: 100%;
+}
+body.clapboard .pricing-card {
+width: 95%;
+margin: 0 auto 30px;
+}
+body.clapboard #brand .brand-column .brand-card:nth-child(2){
+border-top: 0 solid #f2f2f2;
+border-bottom: 0 solid #f2f2f2;
+}
+body.clapboard #brand .brand-column .brand-card:nth-child(1),
+body.clapboard #brand .brand-column .brand-card:nth-child(2),
+body.clapboard #brand .brand-column .brand-card:nth-child(3){
+margin-top: 0 !important;
+}
 .career .owl-carousel .owl-item:nth-child(even) img {
 margin-top: 0;
 }
@@ -4878,6 +5122,12 @@ margin-bottom: 25px;
 }
 
 @media only screen and (max-width: 480px) {
+
+body.clapboard #intro .intro-contact {
+background-size: 420px !important;
+background-position: 110% 95% !important;
+}
+
 .team-member {
 width: 100%;
 }
